@@ -11,7 +11,7 @@ DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
 @st.cache
 def load_data(nrows):
     #data = pd.read_csv(DATA_URL, nrows=nrows)
-    #data = pd.read_csv("statement.csv",skiprows=9,nrows=116)
+    #data = pd.read_csv("statement.csv",skiprows=9,nrows=116) 
     data = pd.read_csv("statement.csv")
 
     # First Bank Card	Transaction Type	Date Posted	 Transaction Amount	Description
